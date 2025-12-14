@@ -26,11 +26,6 @@ export function NavBar() {
           Favourite
         </Link>
       </div>
-      {/* <div>
-        <button className="btn px-4 transition duration-200 py-2 bg-[#CBD99B] rounded-lg hover:bg-[#EEEEEE] hover:text-[#F87B1B]">
-          Login
-        </button>
-      </div> */}
     </nav>
   );
 }

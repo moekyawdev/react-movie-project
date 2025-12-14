@@ -4,8 +4,6 @@ import { useMovieContext } from "../contexts/MovieContext";
 export function Favourite() {
   const { favourites } = useMovieContext();
 
-  console.log(favourites);
-
   if (favourites.length > 0) {
     return (
       <div>
