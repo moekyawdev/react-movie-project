@@ -59,7 +59,7 @@ export function Home() {
       {error && <div className="error-message">{error}</div>}
 
       {loading ? (
-        <div className="loading">Loading...</div>
+        <div className="loading text-white">Loading...</div>
       ) : (
         <div className="movie-grid">
           {movies.map((movie) => (
