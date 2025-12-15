@@ -17,7 +17,7 @@ export function Favourite() {
     );
   }
   return (
-    <div className="favourite-empty mt-5  flex flex-col gap-1 items-center justify-center">
+    <div className="favourite-empty mt-5  flex flex-col gap-1 items-center justify-center items-center">
       <h2 className="text-white">No Favourite Movies Yet</h2>
       <p className="text-white">
         You can add your favourit movie by clicking 🤍

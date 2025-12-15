@@ -114,6 +114,10 @@ body {
   word-wrap: break-word;
 }
 
+.favourite-empty {
+  height: 90vh;
+}
+
 .favourite-btn {
   position: absolute;
   top: 10px;
@@ -145,7 +149,7 @@ body {
     flex-direction: column;
     background-color: #1a2f66;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 0;
     width: 100%;
     padding: 15px 0;
